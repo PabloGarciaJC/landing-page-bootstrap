@@ -1,0 +1,37 @@
+ .bg-banner {
+     --bs-bg-opacity: 1;
+     background-color: rgb(120 36 36) !important;
+ }
+
+ .text-banner {
+     color: rgb(120 36 36) !important;
+ }
+
+ .btn-rounded {
+     border-radius: 50px;
+ }
+
+ .card-hover:hover {
+     transform: translateY(-8px);
+     transition: .3s;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
+ }
+
+ .hero-img {
+     filter: brightness(60%);
+ }
+
+ .hero-text {
+     text-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+ }
+
+ .text-muted {
+     max-width: 750px;
+     margin: auto;
+ }
+
+
+ .bg-banner-footer {
+    --bs-bg-opacity: 1;
+    background-color: rgb(84 23 23) !important;
+}

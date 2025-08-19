@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page – Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="bg-light text-center">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-banner" href="#inicio">PabloGarciaJC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#portafolio">Portafolio</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn bg-banner btn-rounded ms-lg-3 text-white""><i class="bi bi-send-fill me-1"></i>Solicita
+          propuesta</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="inicio" class="position-relative">
+    <img src="assets/img-home1.png" class="w-100 vh-100 object-fit-cover hero-img" alt="Fondo hero">
+    <div
+      class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-center text-white">
+      <div class="container hero-text">
+        <h1 class="display-2 fw-bold mb-3">Haz crecer tu negocio <br> con soluciones digitales</h1>
+        <a href="#contacto" class="btn btn-light btn-lg btn-rounded me-2"><i
+            class="bi bi-lightning-charge-fill me-1"></i>Trabajemos juntos</a>
+        <a href="#servicios" class="btn btn-outline-light btn-lg btn-rounded"><i
+            class="bi bi-info-circle me-1"></i>Conoce más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5">
+    <div class="container">
+      <h2 class="text-banner fw-bold mb-4">Nuestros Servicios</h2>
+      <p class="text-muted mb-5">Ofrecemos soluciones digitales hechas a medida para cada cliente. Desde sitios web
+        elegantes hasta aplicaciones robustas, nuestro enfoque siempre está en la calidad y la innovación.</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 p-4 card-hover h-100">
+            <h4 class="text-banner fw-semibold"><i class="bi bi-laptop me-2"></i>Diseño Web</h4>
+            <p>Creamos páginas modernas, rápidas y seguras, adaptadas a cualquier dispositivo.</p>
+            <ul class="text-muted small">
+              <li>Diseño atractivo y funcional</li>
+              <li>Optimización SEO</li>
+              <li>Carga ultrarrápida</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 p-4 card-hover h-100">
+            <h4 class="text-banner fw-semibold"><i class="bi bi-bag-check-fill me-2"></i>Ecommerce</h4>
+            <p>Desarrollamos tiendas en línea que generan confianza y facilitan las ventas.</p>
+            <ul class="text-muted small">
+              <li>Gestión de catálogo</li>
+              <li>Pagos seguros</li>
+              <li>Interfaz intuitiva</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 p-4 card-hover h-100">
+            <h4 class="text-banner fw-semibold"><i class="bi bi-phone-flip me-2"></i>Apps Web</h4>
+            <p>Aplicaciones a medida para empresas que buscan crecer y optimizar procesos.</p>
+            <ul class="text-muted small">
+              <li>Automatización de tareas</li>
+              <li>Integración con sistemas</li>
+              <li>Soporte y escalabilidad</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="portafolio" class="py-5 bg-banner text-white">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Nuestro Portafolio</h2>
+      <p class="mb-5">
+        Estos son algunos de los proyectos que hemos desarrollado para clientes de diferentes sectores. Cada uno
+        representa nuestro compromiso con la calidad y la innovación.
+      </p>
+      <div class="row g-4">
+        <div class="col-md-4 d-flex">
+          <div class="card border-0 shadow-lg h-100 flex-fill d-flex flex-column card-hover">
+            <div class="ratio ratio-4x3 overflow-hidden">
+              <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/red_social_1_webp.webp"
+                class="card-img-top img-fluid" alt="Red Social">
+            </div>
+            <div class="card-body text-dark mt-auto">
+              <h5 class="fw-bold">
+                <i class="bi bi-people-fill me-2 text-banner"></i>Red Social
+              </h5>
+              <p>
+                Una plataforma para conectar comunidades, con perfiles, notificaciones y mensajería integrada.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="card border-0 shadow-lg h-100 flex-fill d-flex flex-column card-hover">
+            <div class="ratio ratio-4x3 overflow-hidden">
+              <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/ecommerce_1_webp.png"
+                class="card-img-top img-fluid" alt="Ecommerce">
+            </div>
+            <div class="card-body text-dark mt-auto">
+              <h5 class="fw-bold">
+                <i class="bi bi-shop me-2 text-banner"></i>Ecommerce CMS
+              </h5>
+              <p>
+                Tienda online con catálogo autogestionable, pasarelas de pago y diseño pensado para aumentar ventas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="card border-0 shadow-lg h-100 flex-fill d-flex flex-column card-hover">
+            <div class="ratio ratio-4x3 overflow-hidden">
+              <img src="https://pablogarciajc.com/wp-content/uploads/2025/07/sistema_finanzas_hogar1.webp"
+                class="card-img-top img-fluid" alt="Finanzas">
+            </div>
+            <div class="card-body text-dark mt-auto">
+              <h5 class="fw-bold">
+                <i class="bi bi-cash-coin me-2 text-banner"></i>Sistema de Finanzas
+              </h5>
+              <p>
+                Aplicación para organizar gastos e ingresos familiares, con reportes fáciles de entender y exportar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="text-banner fw-bold mb-4">
+        <i class="bi bi-person-hearts me-2"></i>Sobre Nosotros
+      </h2>
+      <p class="lead text-dark w-75 mx-auto mb-4">
+        Somos un equipo apasionado por la tecnología y el diseño, que combina creatividad y estrategia para crear
+        soluciones digitales únicas. Desde 2019, hemos acompañado a más de 50 empresas en su crecimiento digital,
+        aportando ideas innovadoras y resultados tangibles.
+      </p>
+      <p class="text-dark w-75 mx-auto">
+        Nuestro enfoque se centra en cada cliente, entendiendo sus necesidades y construyendo experiencias digitales
+        memorables. Valoramos la atención personalizada, la calidad en cada detalle y la creatividad que hace que cada
+        proyecto destaque en un mundo competitivo.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5 bg-banner text-white">
+    <div class="container">
+      <h2 class="fw-bold mb-3">¡Hablemos de tu proyecto!</h2>
+      <p class="mb-4">Queremos conocer tus ideas y ayudarte a hacerlas realidad. Completa el formulario y te
+        responderemos en menos de 24 horas con una propuesta personalizada.</p>
+      <form class="text-center mx-auto col-md-8 col-lg-6">
+        <div class="mb-3">
+          <input type="text" class="form-control rounded-pill text-center" placeholder="Nombre completo" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control rounded-pill text-center" placeholder="Correo electrónico" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control rounded-4 text-center" rows="4" placeholder="Cuéntanos tu idea..."
+            required></textarea>
+        </div>
+        <button type="submit" class="btn btn-light w-100 btn-rounded"><i class="bi bi-envelope-fill me-2"></i>Enviar
+          mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center bg-banner-footer text-white py-3">
+    <p class="mb-0">Desarrollado por © Pablo Garcia JC</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
