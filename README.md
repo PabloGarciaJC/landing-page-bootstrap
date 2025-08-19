@@ -1,4 +1,4 @@
-# Landing Page – Bootstrap 5 + CSS
+# Landing Page – Bootstrap
 
 Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bootstrap Icons** y estilos personalizados para una experiencia visual moderna y responsive. Interactividad mínima con **JavaScript de Bootstrap** para componentes como el menú colapsable.
 
