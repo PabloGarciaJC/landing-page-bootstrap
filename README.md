@@ -2,7 +2,7 @@
 
 Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bootstrap Icons** y estilos personalizados para una experiencia visual moderna y responsive. Interactividad mínima con **JavaScript de Bootstrap** para componentes como el menú colapsable.
 
-## 🚀 Demo del Proyecto
+## Demo del Proyecto
 
 [https://landing-page-css-bem-vanilla-js.pablogarciajc.com/](https://landing-page-css-bem-vanilla-js.pablogarciajc.com/)
 
@@ -11,14 +11,14 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bo
 
 ---
 
-## 📌 Funcionalidades principales
+## Funcionalidades principales
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
 - Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5 semántico**
 - **CSS3**
