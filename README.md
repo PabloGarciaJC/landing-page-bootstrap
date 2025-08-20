@@ -26,6 +26,14 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bo
 - **Bootstrap Icons**
 - **JavaScript Vanilla (ES6+)**
 
+---
+
+## Instalación
+
+> ⚠️ No es necesario **Docker**, **Docker Compose** ni **Make**, ya que este proyecto es estático.
+
+---
+
 ## Contáctame / Sígueme en mis redes sociales
 
 | Red Social   | Descripción                                              | Enlace                   |
