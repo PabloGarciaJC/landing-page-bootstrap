@@ -15,6 +15,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bo
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
 - Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
+- Formulario de contacto estilizado.
 
 ---
 
