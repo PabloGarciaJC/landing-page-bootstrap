@@ -6,7 +6,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **Bootstrap 5**, usando **Bo
 
 [https://landing-page-css-bem-vanilla-js.pablogarciajc.com/](https://landing-page-css-bem-vanilla-js.pablogarciajc.com/)
 
-| ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/08/landing-page-bootstrap-1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/08/landing-page-bootstrap-2.webp) |
+| ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/08/landing-page-bootstrap-1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/09/landing-page-bootstrap-22_11.webp) |
 |-----------|-----------|
 
 ---
